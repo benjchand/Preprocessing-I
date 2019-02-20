@@ -22,6 +22,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	font-family: 'Lato', sans-serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -57,31 +58,73 @@ html, body {
     height: 100%;
 }
 .pageformatting {
-	background-color: lightgray;
+	// background-color: rgb(206, 206, 206);
 	width: 100%;
-	font-size: 62.5%
+	font-size: 62.5%;
+}
+.border {
+	border: .1rem solid black;
+}
+.big-header{
+	font-size: 2rem;
+	color: navy;
+}
+h1{
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.5rem;
 }
 
 .home-container{
 	.pageformatting
 }
-
 header {
 	display: flex;
 	justify-content: flex-end;
 	height: 50px;
+	width: 100%;
 	font-size:  1rem;
+	background-color: lightblue;
 	nav {
 		display: flex;
-		align-items: flex-start;
+		align-items: center;
+		margin: .3rem;
 		a {
-		font-size: 14px;
-		color: rgb(0, 0, 0);
-		text-decoration: none;
+			padding: 1rem;
+			font-size: 1rem;
+			color: rgb(0, 0, 0);
+			text-decoration: none;
 		}
 		img {
 			height: 2rem;
-			width:
+			width: auto;
 		}
 	}
 }
+
+.home-top-content{
+	margin: 3rem;
+	.profile-header{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		h1{
+			text-align: center;
+			width: 100%;
+			align-items: center;
+			font-size: 5rem;
+			line-height: 6.2rem;
+			color: rgb(73, 73, 73);
+			padding: 2rem;
+		}
+	}
+	.Name{
+		padding: .8rem 0;
+	}
+}	

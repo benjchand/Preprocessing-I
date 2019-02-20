@@ -88,6 +88,7 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
+  font-family: 'Lato', sans-serif;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -135,28 +136,69 @@ body {
   height: 100%;
 }
 .pageformatting {
-  background-color: lightgray;
   width: 100%;
   font-size: 62.5%;
 }
+.border {
+  border: 0.1rem solid black;
+}
+.big-header {
+  font-size: 2rem;
+  color: navy;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
 .home-container {
-  background-color: lightgray;
   width: 100%;
   font-size: 62.5%;
 }
 header {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   height: 50px;
+  width: 100%;
   font-size: 1rem;
+  background-color: lightblue;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  margin: 0.3rem;
 }
 header nav a {
-  font-size: 14px;
-  color: gray;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #000000;
   text-decoration: none;
 }
 header nav img {
   height: 2rem;
   width: auto;
+}
+.home-top-content {
+  margin: 3rem;
+}
+.home-top-content .profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-top-content .profile-header h1 {
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  font-size: 5rem;
+  line-height: 6.2rem;
+  color: #494949;
+  padding: 2rem;
+}
+.home-top-content .Name {
+  padding: 0.8rem 0;
 }
