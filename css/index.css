@@ -150,10 +150,27 @@ h1 {
   font-size: 2.5rem;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 h3 {
   font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+p {
+  font-size: 1rem;
+}
+.button {
+  height: 2.5rem;
+  width: 11rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: lightblue;
+}
+.button:hover {
+  background-color: darkblue;
 }
 .home-container {
   width: 100%;
@@ -162,7 +179,7 @@ h3 {
 header {
   display: flex;
   justify-content: flex-end;
-  height: 50px;
+  height: 5rem;
   width: 100%;
   font-size: 1rem;
   background-color: lightblue;
@@ -183,7 +200,9 @@ header nav img {
   width: auto;
 }
 .home-top-content {
-  margin: 3rem;
+  margin: 1.5rem 3rem 1.5rem;
+  padding: 2rem;
+  background-color: #e9e9e9;
 }
 .home-top-content .profile-header {
   display: flex;
@@ -201,4 +220,68 @@ header nav img {
 }
 .home-top-content .Name {
   padding: 0.8rem 0;
+}
+.home-top-content .Dig {
+  font-style: oblique;
+}
+.home-top-content .top-description {
+  border-top: 1px solid #b8b8b8;
+  margin-top: 1rem;
+  padding: 1rem 0;
+  font-size: 1rem;
+}
+.home-top-content button {
+  height: 2.5rem;
+  width: 11rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: lightblue;
+  margin-right: 1rem;
+}
+.home-middle-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 3rem 3rem;
+}
+.home-middle-content .philosophy {
+  width: 47%;
+  padding: 0.5rem 0;
+}
+.home-middle-content .philosophy p {
+  padding: 1rem 0 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.home-middle-content .skills-table {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.home-middle-content .skills-table h3 {
+  padding-bottom: 0.4rem;
+}
+.home-middle-content .skills-table ul {
+  border: 0.05rem solid black;
+  border-bottom: 0;
+}
+.home-middle-content .skills-table li {
+  padding: 1rem;
+  font-size: 1rem;
+  border-bottom: 0.05rem solid black;
+}
+.footer-contact-me {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  width: 100%;
+  height: auto;
+  background-color: lightblue;
+}
+.footer-contact-me h4 {
+  padding: 0 0 1rem;
+  text-decoration: underline;
+}
+.footer-contact-me p {
+  padding: 0.2rem 0;
 }

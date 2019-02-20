@@ -74,11 +74,28 @@ h1{
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
 
 h3 {
 	font-size: 1.5rem;
+}
+h4 {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+p {
+	font-size: 1rem;
+}
+.button{
+	height: 2.5rem;
+	width: 11rem;
+	border-radius: 6px;
+	font-size: 1rem;
+	background-color: lightblue;
+}
+.button:hover{
+	background-color: darkblue;
 }
 
 .home-container{
@@ -87,7 +104,7 @@ h3 {
 header {
 	display: flex;
 	justify-content: flex-end;
-	height: 50px;
+	height: 5rem;
 	width: 100%;
 	font-size:  1rem;
 	background-color: lightblue;
@@ -109,7 +126,9 @@ header {
 }
 
 .home-top-content{
-	margin: 3rem;
+	margin: 1.5rem 3rem 1.5rem;
+	padding: 2rem;
+	background-color: rgb(233, 233, 233);
 	.profile-header{
 		display: flex;
 		justify-content: space-between;
@@ -127,4 +146,67 @@ header {
 	.Name{
 		padding: .8rem 0;
 	}
-}	
+	.Dig{
+		font-style: oblique;
+	}
+	.top-description{
+		border-top: 1px solid rgb(184, 184, 184);
+		margin-top: 1rem;
+		padding: 1rem 0;
+		font-size: 1rem;
+	}
+	button{
+		.button;
+		margin-right: 1rem;
+	}
+}
+.home-middle-content{
+	display: flex;
+	justify-content: space-between;
+	margin: 1.5rem 3rem 3rem;
+	.philosophy{
+		width:47%;
+		padding: .5rem 0;
+		p {
+			padding: 1rem 0 0;
+			font-size: 1rem;
+			line-height: 1.5rem;
+		}
+	}
+	.skills-table{
+		width: 47%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		h3 {
+			padding-bottom: .4rem;
+		}
+		ul{
+			border: .05rem solid black;
+			border-bottom: 0;
+		}
+		li {
+			padding: 1rem;
+			font-size: 1rem;
+			border-bottom: .05rem solid black;
+		
+		}
+	}
+	
+}
+.footer-contact-me{
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 2rem;
+	width: 100%;
+	height: auto;
+	background-color: lightblue;
+	h4 {
+		padding: 0 0 1rem;
+		text-decoration: underline;
+	}
+	p {
+		padding: .2rem 0;
+	}
+	
+}
