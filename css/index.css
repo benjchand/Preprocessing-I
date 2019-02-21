@@ -168,9 +168,8 @@ p {
   border-radius: 6px;
   font-size: 1rem;
   background-color: lightblue;
-}
-.button:hover {
-  background-color: darkblue;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 .home-container {
   width: 100%;
@@ -237,7 +236,13 @@ header nav img {
   border-radius: 6px;
   font-size: 1rem;
   background-color: lightblue;
+  transition-duration: 0.4s;
+  cursor: pointer;
   margin-right: 1rem;
+}
+.home-top-content button:hover {
+  background-color: #8c96f3;
+  color: white;
 }
 .home-middle-content {
   display: flex;
