@@ -22,6 +22,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	font-family: 'Lato', sans-serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -56,4 +57,185 @@ table {
 html, body {
     height: 100%;
 }
+.pageformatting {
+	// background-color: rgb(206, 206, 206);
+	width: 100%;
+	font-size: 62.5%;
+}
+.border {
+	border: .1rem solid black;
+}
+.big-header{
+	font-size: 2rem;
+	color: navy;
+}
+h1{
+	font-size: 2.5rem;
+}
 
+h2 {
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+h4 {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+p {
+	font-size: 1rem;
+}
+.button{
+	height: 2.5rem;
+	width: 11rem;
+	border-radius: 6px;
+	font-size: 1rem;
+	background-color: lightblue;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.home-container{
+	.pageformatting
+}
+header {
+	display: flex;
+	justify-content: flex-end;
+	height: 5rem;
+	width: 100%;
+	font-size:  1rem;
+	background-color: lightblue;
+	padding: 0 1.5rem;
+	nav {
+		display: flex;
+		align-items: center;
+		margin: .3rem;
+		a {
+			padding: 1rem;
+			font-size: 1rem;
+			color: rgb(0, 0, 0);
+			text-decoration: none;
+		}
+		img {
+			height: 2rem;
+			width: auto;
+		}
+	}
+}
+
+.home-top-content{
+	margin: 1.5rem 3rem 1.5rem;
+	padding: 2rem;
+	background-color: rgb(233, 233, 233);
+	.profile-header{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		h1{
+			text-align: center;
+			width: 100%;
+			align-items: center;
+			font-size: 5rem;
+			line-height: 6.2rem;
+			color: rgb(73, 73, 73);
+			padding: 2rem;
+		}
+	}
+	.Name{
+		padding: .8rem 0;
+	}
+	.Dig{
+		font-style: oblique;
+	}
+	.top-description{
+		border-top: 1px solid rgb(184, 184, 184);
+		margin-top: 1rem;
+		padding: 1rem 0;
+		font-size: 1rem;
+	}
+	button{
+		.button;
+		margin-right: 1rem;
+	}
+	button:hover{
+		background-color: rgb(140, 150, 243);
+		color: white;
+	}
+}
+.home-middle-content{
+	display: flex;
+	justify-content: space-between;
+	margin: 1.5rem 3rem 3rem;
+	.philosophy{
+		width:47%;
+		padding: .5rem 0;
+		p {
+			padding: 1rem 0 0;
+			font-size: 1rem;
+			line-height: 1.5rem;
+		}
+	}
+	.skills-table{
+		width: 47%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		h3 {
+			padding-bottom: .4rem;
+		}
+		ul{
+			border: .05rem solid black;
+			border-bottom: 0;
+		}
+		li {
+			padding: 1rem;
+			font-size: 1rem;
+			border-bottom: .05rem solid black;
+		
+		}
+	}
+}
+.work-history {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 1.5rem 3rem 3rem;
+	table{
+		margin: 1rem 0;
+		font-size: .8rem;
+		border-collapse: collapse;
+		width: 100%;
+		td {
+			border: 1px solid #dddddd;
+			text-align: left;
+			padding: 8px;
+		  }
+		  th {
+			border: 1px solid #dddddd;
+			text-align: center;
+			font-size: 1rem;
+			padding: 8px;
+		  }
+			tr:nth-child(even) {
+			background-color: #dddddd;
+		  }
+	}
+}
+.footer-contact-me{
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 2rem;
+	width: 100%;
+	height: auto;
+	background-color: lightblue;
+	h4 {
+		padding: 0 0 1rem;
+		text-decoration: underline;
+	}
+	p {
+		padding: .2rem 0;
+	}
+	
+}
